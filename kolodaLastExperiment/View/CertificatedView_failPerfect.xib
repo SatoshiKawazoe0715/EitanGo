@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="7BS-BB-3Nl" customClass="CertificateView_failed" customModule="kolodaLastExperiment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="286.66666666666663"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rfd-DQ-ppR">
+                    <rect key="frame" x="0.0" y="58.999999999999986" width="393" height="193.66666666666663"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="t0Z-Ur-cGe">
+                            <rect key="frame" x="30" y="6.3333333333333286" width="333" height="181"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Try Again." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odC-UX-xKJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="333" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="HZO-Ly-PVQ"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="何度も挑戦しよう。" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="veB-0H-d4V">
+                                    <rect key="frame" x="0.0" y="85.000000000000014" width="333" height="18"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="18" id="wn8-F3-rga"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zLk-We-etG">
+                                    <rect key="frame" x="0.0" y="148" width="333" height="33"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9s-19-3pr">
+                                            <rect key="frame" x="223" y="0.0" width="110" height="33"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="110" id="cv5-cd-uM8"/>
+                                            </constraints>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="filled" title="記録を見る">
+                                                <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
+                                                <color key="baseBackgroundColor" systemColor="systemPurpleColor"/>
+                                            </buttonConfiguration>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    <constraints>
+                                        <constraint firstItem="c9s-19-3pr" firstAttribute="top" secondItem="zLk-We-etG" secondAttribute="top" id="0Tz-hW-sCx"/>
+                                        <constraint firstAttribute="trailing" secondItem="c9s-19-3pr" secondAttribute="trailing" id="IjP-69-Zcp"/>
+                                        <constraint firstAttribute="height" constant="33" id="PTs-Fs-cOk"/>
+                                        <constraint firstAttribute="bottom" secondItem="c9s-19-3pr" secondAttribute="bottom" id="QSb-og-3M3"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="t0Z-Ur-cGe" firstAttribute="centerX" secondItem="Rfd-DQ-ppR" secondAttribute="centerX" id="3hw-57-EMH"/>
+                        <constraint firstItem="t0Z-Ur-cGe" firstAttribute="centerY" secondItem="Rfd-DQ-ppR" secondAttribute="centerY" id="4Z0-zH-JPF"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="4fX-Kh-eF6"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Rfd-DQ-ppR" firstAttribute="top" secondItem="4fX-Kh-eF6" secondAttribute="top" id="NYZ-mZ-upj"/>
+                <constraint firstItem="4fX-Kh-eF6" firstAttribute="trailing" secondItem="Rfd-DQ-ppR" secondAttribute="trailing" id="TeB-Ld-M7k"/>
+                <constraint firstItem="Rfd-DQ-ppR" firstAttribute="leading" secondItem="4fX-Kh-eF6" secondAttribute="leading" id="er3-KF-i6G"/>
+                <constraint firstItem="4fX-Kh-eF6" firstAttribute="bottom" secondItem="Rfd-DQ-ppR" secondAttribute="bottom" id="f6J-14-IBm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-1060.3053435114502" y="297.53521126760563"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

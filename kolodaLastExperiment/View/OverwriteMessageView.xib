@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="oJH-qs-fJ1" userLabel="OverwriteMessageView_Perfect" customClass="OverwriteMessageView" customModule="kolodaLastExperiment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="145"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XU3-Vs-UJ2">
+                    <rect key="frame" x="306" y="0.0" width="77" height="145"/>
+                    <subviews>
+                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="moe-vV-dTc">
+                            <rect key="frame" x="15" y="57" width="49" height="31"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="31" id="C2r-Zx-5dv"/>
+                                <constraint firstAttribute="width" constant="47" id="gPD-kR-f8v"/>
+                            </constraints>
+                        </switch>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="記録する" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N8q-Nl-8kn">
+                            <rect key="frame" x="2.6666666666666856" y="98" width="72" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="17" id="geD-fV-dEc"/>
+                                <constraint firstAttribute="width" constant="72" id="vJy-2w-rgn"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="moe-vV-dTc" firstAttribute="centerX" secondItem="XU3-Vs-UJ2" secondAttribute="centerX" id="1XR-Ip-asd"/>
+                        <constraint firstItem="moe-vV-dTc" firstAttribute="centerY" secondItem="XU3-Vs-UJ2" secondAttribute="centerY" id="V3l-63-gji"/>
+                        <constraint firstItem="N8q-Nl-8kn" firstAttribute="top" secondItem="moe-vV-dTc" secondAttribute="bottom" constant="10" id="Vqo-lp-eve"/>
+                        <constraint firstAttribute="width" constant="77" id="odi-Zq-Fvs"/>
+                        <constraint firstItem="N8q-Nl-8kn" firstAttribute="centerX" secondItem="moe-vV-dTc" secondAttribute="centerX" id="sop-sw-ELg"/>
+                    </constraints>
+                </view>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="ypC-U5-qWf">
+                    <rect key="frame" x="20" y="23" width="286" height="99"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Perfectモードでクリアした記録が" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBd-Cd-SPS">
+                            <rect key="frame" x="0.0" y="0.0" width="286" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="uoA-AD-kiJ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上書きされる単語があります。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBH-Jj-XEF">
+                            <rect key="frame" x="0.0" y="28" width="286" height="15"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今回の記録を残すかを" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jc7-n3-C2B">
+                            <rect key="frame" x="0.0" y="56" width="286" height="15"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="右のスイッチで選択できます。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpm-oi-VWR">
+                            <rect key="frame" x="0.0" y="84" width="286" height="15"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="cpm-oi-VWR" firstAttribute="height" secondItem="pBd-Cd-SPS" secondAttribute="height" id="MNb-gF-Cdf"/>
+                        <constraint firstItem="Jc7-n3-C2B" firstAttribute="height" secondItem="pBd-Cd-SPS" secondAttribute="height" id="owm-ee-Xvs"/>
+                        <constraint firstItem="iBH-Jj-XEF" firstAttribute="height" secondItem="pBd-Cd-SPS" secondAttribute="height" id="yZ3-YT-qtL"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="3m2-rw-fuL"/>
+            <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ypC-U5-qWf" firstAttribute="leading" secondItem="3m2-rw-fuL" secondAttribute="leading" constant="20" id="3XS-xw-5LR"/>
+                <constraint firstItem="ypC-U5-qWf" firstAttribute="centerY" secondItem="oJH-qs-fJ1" secondAttribute="centerY" id="405-H2-dDf"/>
+                <constraint firstItem="XU3-Vs-UJ2" firstAttribute="top" secondItem="oJH-qs-fJ1" secondAttribute="top" id="6XI-22-pUn"/>
+                <constraint firstItem="XU3-Vs-UJ2" firstAttribute="leading" secondItem="ypC-U5-qWf" secondAttribute="trailing" id="Tku-Am-mdm"/>
+                <constraint firstAttribute="bottom" secondItem="XU3-Vs-UJ2" secondAttribute="bottom" id="bPy-YB-40O"/>
+                <constraint firstItem="XU3-Vs-UJ2" firstAttribute="trailing" secondItem="3m2-rw-fuL" secondAttribute="trailing" constant="-10" id="sdh-BJ-08H"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="firstCommentLabel" destination="pBd-Cd-SPS" id="N2A-ZD-Mca"/>
+                <outlet property="record_notRecordLabel" destination="N8q-Nl-8kn" id="a5y-s3-AeZ"/>
+                <outlet property="record_notRecordSwitch" destination="moe-vV-dTc" id="RPR-IN-EAq"/>
+            </connections>
+            <point key="canvasLocation" x="244" y="-138"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

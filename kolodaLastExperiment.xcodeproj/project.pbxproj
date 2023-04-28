@@ -1,0 +1,951 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27FB569F41D2E9A2B8FA3608 /* Pods_kolodaLastExperimentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AAA7220BB97A6544BC2FBA /* Pods_kolodaLastExperimentTests.framework */; };
+		2F6EF27CCDB266D5A5C05793 /* Pods_kolodaLastExperiment_kolodaLastExperimentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5F56EA6D0C69673A89EF14 /* Pods_kolodaLastExperiment_kolodaLastExperimentUITests.framework */; };
+		72B539B7796EABA89FCD08EA /* Pods_kolodaLastExperiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB8498BCFB96DD9680DFEB4 /* Pods_kolodaLastExperiment.framework */; };
+		82131FFF29F27B3A006F8FDD /* default.realm in Resources */ = {isa = PBXBuildFile; fileRef = 82131FFE29F27B3A006F8FDD /* default.realm */; };
+		8213200029F27B3A006F8FDD /* default.realm in Resources */ = {isa = PBXBuildFile; fileRef = 82131FFE29F27B3A006F8FDD /* default.realm */; };
+		8213200129F27B3A006F8FDD /* default.realm in Resources */ = {isa = PBXBuildFile; fileRef = 82131FFE29F27B3A006F8FDD /* default.realm */; };
+		8213204F29F66C37006F8FDD /* OverlayoutPopUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8213204B29F66C37006F8FDD /* OverlayoutPopUpViewController.xib */; };
+		8213205229F66C37006F8FDD /* OverlayoutPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8213204E29F66C37006F8FDD /* OverlayoutPopUpViewController.swift */; };
+		821F72DC296034DF00BF175B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F72DB296034DF00BF175B /* AppDelegate.swift */; };
+		821F72DE296034DF00BF175B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F72DD296034DF00BF175B /* SceneDelegate.swift */; };
+		821F72E0296034DF00BF175B /* LearningFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F72DF296034DF00BF175B /* LearningFieldViewController.swift */; };
+		821F72E3296034DF00BF175B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821F72E1296034DF00BF175B /* Main.storyboard */; };
+		821F72E5296034E000BF175B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 821F72E4296034E000BF175B /* Assets.xcassets */; };
+		821F72E8296034E000BF175B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 821F72E6296034E000BF175B /* LaunchScreen.storyboard */; };
+		821F72F3296034E000BF175B /* kolodaLastExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F72F2296034E000BF175B /* kolodaLastExperimentTests.swift */; };
+		821F72FD296034E000BF175B /* kolodaLastExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F72FC296034E000BF175B /* kolodaLastExperimentUITests.swift */; };
+		821F72FF296034E000BF175B /* kolodaLastExperimentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F72FE296034E000BF175B /* kolodaLastExperimentUITestsLaunchTests.swift */; };
+		821F730C29603A6200BF175B /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F730B29603A6200BF175B /* CardViewController.swift */; };
+		8228A76D29A4B08B00921FD2 /* WordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8228A76C29A4B08B00921FD2 /* WordData.swift */; };
+		8228A76F29A4B18700921FD2 /* TextSelectingViewContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8228A76E29A4B18700921FD2 /* TextSelectingViewContrller.swift */; };
+		8228A77329A5D8BC00921FD2 /* Textbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8228A77229A5D8BC00921FD2 /* Textbook.swift */; };
+		82320C542971C98D00A7FDA3 /* AllWordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297766C2971C62B00F2E9EC /* AllWordsViewController.swift */; };
+		8237AF8229DC10A5004AE66D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8237AF8029DC10A5004AE66D /* CollectionViewCell.swift */; };
+		8237AF8329DC10A5004AE66D /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8237AF8129DC10A5004AE66D /* CollectionViewCell.xib */; };
+		8237AF8B29DC56EC004AE66D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8237AF8929DC56EC004AE66D /* TableViewCell.swift */; };
+		8237AF8C29DC56EC004AE66D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8237AF8A29DC56EC004AE66D /* TableViewCell.xib */; };
+		8237AF8E29DC647B004AE66D /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8237AF8D29DC647B004AE66D /* EditViewController.swift */; };
+		8237AF9229DC6547004AE66D /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8237AF9129DC6547004AE66D /* AddViewController.swift */; };
+		8237AF9629DD9D27004AE66D /* FloatingPanelStocksLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8237AF9529DD9D27004AE66D /* FloatingPanelStocksLayout.swift */; };
+		827B208D29E3030B00A49C7D /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827B208C29E3030B00A49C7D /* constants.swift */; };
+		827B208F29E651C600A49C7D /* CardDataAndLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827B208E29E651C600A49C7D /* CardDataAndLogic.swift */; };
+		8295AB8D2960E4F50002B1FC /* CardOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8295AB8C2960E4F50002B1FC /* CardOverlayView.xib */; };
+		8295AB8F2960E5AD0002B1FC /* CardOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8295AB8E2960E5AD0002B1FC /* CardOverlayView.swift */; };
+		8297766B29711CBC00F2E9EC /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8297766A29711CBC00F2E9EC /* LaunchViewController.swift */; };
+		8299E84B29767049000A6530 /* CertificateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8299E84A29767049000A6530 /* CertificateViewController.swift */; };
+		8299E84D2976A87F000A6530 /* extendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8299E84C2976A87E000A6530 /* extendView.swift */; };
+		82A22CA829FC10B400A30B60 /* tipImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A22CA629FC10B400A30B60 /* tipImageViewController.swift */; };
+		82A22CA929FC10B400A30B60 /* tipImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A22CA729FC10B400A30B60 /* tipImageViewController.xib */; };
+		82A8B75B29EC118900B830F1 /* experiment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A8B75A29EC118900B830F1 /* experiment.xib */; };
+		82A8B76929ECF46D00B830F1 /* DateBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A8B76829ECF46D00B830F1 /* DateBrain.swift */; };
+		82C9E9D229CBD6E900DC658B /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C9E9D029CBD6E800DC658B /* WordCell.swift */; };
+		82C9E9D329CBD6E900DC658B /* wordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82C9E9D129CBD6E900DC658B /* wordCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		821F72EF296034E000BF175B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821F72D0296034DE00BF175B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 821F72D7296034DF00BF175B;
+			remoteInfo = kolodaLastExperiment;
+		};
+		821F72F9296034E000BF175B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821F72D0296034DE00BF175B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 821F72D7296034DF00BF175B;
+			remoteInfo = kolodaLastExperiment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AE9397EB254662E85B7B35E /* Pods-kolodaLastExperiment-kolodaLastExperimentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kolodaLastExperiment-kolodaLastExperimentUITests.release.xcconfig"; path = "Target Support Files/Pods-kolodaLastExperiment-kolodaLastExperimentUITests/Pods-kolodaLastExperiment-kolodaLastExperimentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D213BB2043278AAA39951C1 /* Pods-kolodaLastExperiment-kolodaLastExperimentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kolodaLastExperiment-kolodaLastExperimentUITests.debug.xcconfig"; path = "Target Support Files/Pods-kolodaLastExperiment-kolodaLastExperimentUITests/Pods-kolodaLastExperiment-kolodaLastExperimentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		30E079460293481422F4289C /* Pods-kolodaLastExperimentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kolodaLastExperimentTests.debug.xcconfig"; path = "Target Support Files/Pods-kolodaLastExperimentTests/Pods-kolodaLastExperimentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82131FFE29F27B3A006F8FDD /* default.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = default.realm; sourceTree = "<group>"; };
+		8213204B29F66C37006F8FDD /* OverlayoutPopUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayoutPopUpViewController.xib; sourceTree = "<group>"; };
+		8213204E29F66C37006F8FDD /* OverlayoutPopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayoutPopUpViewController.swift; sourceTree = "<group>"; };
+		821F72D8296034DF00BF175B /* kolodaLastExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kolodaLastExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		821F72DB296034DF00BF175B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		821F72DD296034DF00BF175B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		821F72DF296034DF00BF175B /* LearningFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningFieldViewController.swift; sourceTree = "<group>"; };
+		821F72E2296034DF00BF175B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		821F72E4296034E000BF175B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		821F72E7296034E000BF175B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		821F72E9296034E000BF175B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		821F72EE296034E000BF175B /* kolodaLastExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kolodaLastExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		821F72F2296034E000BF175B /* kolodaLastExperimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kolodaLastExperimentTests.swift; sourceTree = "<group>"; };
+		821F72F8296034E000BF175B /* kolodaLastExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kolodaLastExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		821F72FC296034E000BF175B /* kolodaLastExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kolodaLastExperimentUITests.swift; sourceTree = "<group>"; };
+		821F72FE296034E000BF175B /* kolodaLastExperimentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kolodaLastExperimentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		821F730B29603A6200BF175B /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		8228A76C29A4B08B00921FD2 /* WordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordData.swift; sourceTree = "<group>"; };
+		8228A76E29A4B18700921FD2 /* TextSelectingViewContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectingViewContrller.swift; sourceTree = "<group>"; };
+		8228A77229A5D8BC00921FD2 /* Textbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textbook.swift; sourceTree = "<group>"; };
+		8237AF8029DC10A5004AE66D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = "../New Group1/CollectionViewCell.swift"; sourceTree = "<group>"; };
+		8237AF8129DC10A5004AE66D /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		8237AF8929DC56EC004AE66D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8237AF8A29DC56EC004AE66D /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TableViewCell.xib; path = "../New Group2/TableViewCell.xib"; sourceTree = "<group>"; };
+		8237AF8D29DC647B004AE66D /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		8237AF9129DC6547004AE66D /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		8237AF9529DD9D27004AE66D /* FloatingPanelStocksLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPanelStocksLayout.swift; sourceTree = "<group>"; };
+		827B208C29E3030B00A49C7D /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		827B208E29E651C600A49C7D /* CardDataAndLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDataAndLogic.swift; sourceTree = "<group>"; };
+		8295AB8C2960E4F50002B1FC /* CardOverlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardOverlayView.xib; sourceTree = "<group>"; };
+		8295AB8E2960E5AD0002B1FC /* CardOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardOverlayView.swift; path = "../New Group3/CardOverlayView.swift"; sourceTree = "<group>"; };
+		8297766A29711CBC00F2E9EC /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		8297766C2971C62B00F2E9EC /* AllWordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllWordsViewController.swift; sourceTree = "<group>"; };
+		8299E84A29767049000A6530 /* CertificateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateViewController.swift; sourceTree = "<group>"; };
+		8299E84C2976A87E000A6530 /* extendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extendView.swift; sourceTree = "<group>"; };
+		82A22CA629FC10B400A30B60 /* tipImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = tipImageViewController.swift; path = ../../../../tipImageViewController.swift; sourceTree = "<group>"; };
+		82A22CA729FC10B400A30B60 /* tipImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = tipImageViewController.xib; path = ../../../../tipImageViewController.xib; sourceTree = "<group>"; };
+		82A8B75A29EC118900B830F1 /* experiment.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = experiment.xib; sourceTree = "<group>"; };
+		82A8B76829ECF46D00B830F1 /* DateBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateBrain.swift; sourceTree = "<group>"; };
+		82C9E9D029CBD6E800DC658B /* WordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WordCell.swift; path = "../New Group/WordCell.swift"; sourceTree = "<group>"; };
+		82C9E9D129CBD6E900DC658B /* wordCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = wordCell.xib; sourceTree = "<group>"; };
+		A75A8064CB9548C9FA532123 /* Pods-kolodaLastExperiment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kolodaLastExperiment.debug.xcconfig"; path = "Target Support Files/Pods-kolodaLastExperiment/Pods-kolodaLastExperiment.debug.xcconfig"; sourceTree = "<group>"; };
+		B3AAA7220BB97A6544BC2FBA /* Pods_kolodaLastExperimentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kolodaLastExperimentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB8498BCFB96DD9680DFEB4 /* Pods_kolodaLastExperiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kolodaLastExperiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5F56EA6D0C69673A89EF14 /* Pods_kolodaLastExperiment_kolodaLastExperimentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kolodaLastExperiment_kolodaLastExperimentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92828C273FE0AD9F7826887 /* Pods-kolodaLastExperimentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kolodaLastExperimentTests.release.xcconfig"; path = "Target Support Files/Pods-kolodaLastExperimentTests/Pods-kolodaLastExperimentTests.release.xcconfig"; sourceTree = "<group>"; };
+		E08F6BBCE676204518B436A8 /* Pods-kolodaLastExperiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kolodaLastExperiment.release.xcconfig"; path = "Target Support Files/Pods-kolodaLastExperiment/Pods-kolodaLastExperiment.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		821F72D5296034DF00BF175B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B539B7796EABA89FCD08EA /* Pods_kolodaLastExperiment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821F72EB296034E000BF175B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FB569F41D2E9A2B8FA3608 /* Pods_kolodaLastExperimentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821F72F5296034E000BF175B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6EF27CCDB266D5A5C05793 /* Pods_kolodaLastExperiment_kolodaLastExperimentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6934261454589111BF1CDE5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A75A8064CB9548C9FA532123 /* Pods-kolodaLastExperiment.debug.xcconfig */,
+				E08F6BBCE676204518B436A8 /* Pods-kolodaLastExperiment.release.xcconfig */,
+				2D213BB2043278AAA39951C1 /* Pods-kolodaLastExperiment-kolodaLastExperimentUITests.debug.xcconfig */,
+				2AE9397EB254662E85B7B35E /* Pods-kolodaLastExperiment-kolodaLastExperimentUITests.release.xcconfig */,
+				30E079460293481422F4289C /* Pods-kolodaLastExperimentTests.debug.xcconfig */,
+				D92828C273FE0AD9F7826887 /* Pods-kolodaLastExperimentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8213204A29F66C37006F8FDD /* OverLayoutPopUp */ = {
+			isa = PBXGroup;
+			children = (
+				8213204B29F66C37006F8FDD /* OverlayoutPopUpViewController.xib */,
+				8213204E29F66C37006F8FDD /* OverlayoutPopUpViewController.swift */,
+			);
+			path = OverLayoutPopUp;
+			sourceTree = "<group>";
+		};
+		821F72CF296034DE00BF175B = {
+			isa = PBXGroup;
+			children = (
+				821F72DA296034DF00BF175B /* kolodaLastExperiment */,
+				821F72F1296034E000BF175B /* kolodaLastExperimentTests */,
+				821F72FB296034E000BF175B /* kolodaLastExperimentUITests */,
+				821F72D9296034DF00BF175B /* Products */,
+				6934261454589111BF1CDE5F /* Pods */,
+				CA4BDDE7A3AAD9512F5B6A2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		821F72D9296034DF00BF175B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				821F72D8296034DF00BF175B /* kolodaLastExperiment.app */,
+				821F72EE296034E000BF175B /* kolodaLastExperimentTests.xctest */,
+				821F72F8296034E000BF175B /* kolodaLastExperimentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		821F72DA296034DF00BF175B /* kolodaLastExperiment */ = {
+			isa = PBXGroup;
+			children = (
+				821F72E4296034E000BF175B /* Assets.xcassets */,
+				821F72E6296034E000BF175B /* LaunchScreen.storyboard */,
+				821F72E9296034E000BF175B /* Info.plist */,
+				821F72DB296034DF00BF175B /* AppDelegate.swift */,
+				821F72DD296034DF00BF175B /* SceneDelegate.swift */,
+				827B208C29E3030B00A49C7D /* constants.swift */,
+				821F730D29603A6A00BF175B /* Controllers */,
+				8237AF7729D73643004AE66D /* View */,
+				8237AF8829DC5686004AE66D /* Model */,
+			);
+			path = kolodaLastExperiment;
+			sourceTree = "<group>";
+		};
+		821F72F1296034E000BF175B /* kolodaLastExperimentTests */ = {
+			isa = PBXGroup;
+			children = (
+				821F72F2296034E000BF175B /* kolodaLastExperimentTests.swift */,
+			);
+			path = kolodaLastExperimentTests;
+			sourceTree = "<group>";
+		};
+		821F72FB296034E000BF175B /* kolodaLastExperimentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				821F72FC296034E000BF175B /* kolodaLastExperimentUITests.swift */,
+				821F72FE296034E000BF175B /* kolodaLastExperimentUITestsLaunchTests.swift */,
+			);
+			path = kolodaLastExperimentUITests;
+			sourceTree = "<group>";
+		};
+		821F730D29603A6A00BF175B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8228A76E29A4B18700921FD2 /* TextSelectingViewContrller.swift */,
+				8297766C2971C62B00F2E9EC /* AllWordsViewController.swift */,
+				8297766A29711CBC00F2E9EC /* LaunchViewController.swift */,
+				821F72DF296034DF00BF175B /* LearningFieldViewController.swift */,
+				821F730B29603A6200BF175B /* CardViewController.swift */,
+				8299E84A29767049000A6530 /* CertificateViewController.swift */,
+				8237AF8D29DC647B004AE66D /* EditViewController.swift */,
+				8237AF9129DC6547004AE66D /* AddViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8237AF7729D73643004AE66D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				821F72E1296034DF00BF175B /* Main.storyboard */,
+				82A22CA529FC0F9000A30B60 /* TipImageView */,
+				8213204A29F66C37006F8FDD /* OverLayoutPopUp */,
+				82A22C6229F9453B00A30B60 /* wordCell */,
+				82A22C6329F9455400A30B60 /* collectionViewCell */,
+				82A22CA329FC0F3A00A30B60 /* TableViewCell */,
+				82A22CA429FC0F4E00A30B60 /* CardOverlayView */,
+				82A8B75A29EC118900B830F1 /* experiment.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8237AF8829DC5686004AE66D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8299E84C2976A87E000A6530 /* extendView.swift */,
+				8228A77229A5D8BC00921FD2 /* Textbook.swift */,
+				8228A76C29A4B08B00921FD2 /* WordData.swift */,
+				8237AF9529DD9D27004AE66D /* FloatingPanelStocksLayout.swift */,
+				827B208E29E651C600A49C7D /* CardDataAndLogic.swift */,
+				82A8B76829ECF46D00B830F1 /* DateBrain.swift */,
+				82131FFE29F27B3A006F8FDD /* default.realm */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82A22C6229F9453B00A30B60 /* wordCell */ = {
+			isa = PBXGroup;
+			children = (
+				82C9E9D129CBD6E900DC658B /* wordCell.xib */,
+				82C9E9D029CBD6E800DC658B /* WordCell.swift */,
+			);
+			path = wordCell;
+			sourceTree = "<group>";
+		};
+		82A22C6329F9455400A30B60 /* collectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8237AF8129DC10A5004AE66D /* CollectionViewCell.xib */,
+				8237AF8029DC10A5004AE66D /* CollectionViewCell.swift */,
+			);
+			path = collectionViewCell;
+			sourceTree = "<group>";
+		};
+		82A22CA329FC0F3A00A30B60 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				8237AF8929DC56EC004AE66D /* TableViewCell.swift */,
+				8237AF8A29DC56EC004AE66D /* TableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		82A22CA429FC0F4E00A30B60 /* CardOverlayView */ = {
+			isa = PBXGroup;
+			children = (
+				8295AB8C2960E4F50002B1FC /* CardOverlayView.xib */,
+				8295AB8E2960E5AD0002B1FC /* CardOverlayView.swift */,
+			);
+			path = CardOverlayView;
+			sourceTree = "<group>";
+		};
+		82A22CA529FC0F9000A30B60 /* TipImageView */ = {
+			isa = PBXGroup;
+			children = (
+				82A22CA629FC10B400A30B60 /* tipImageViewController.swift */,
+				82A22CA729FC10B400A30B60 /* tipImageViewController.xib */,
+			);
+			path = TipImageView;
+			sourceTree = "<group>";
+		};
+		CA4BDDE7A3AAD9512F5B6A2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCB8498BCFB96DD9680DFEB4 /* Pods_kolodaLastExperiment.framework */,
+				BF5F56EA6D0C69673A89EF14 /* Pods_kolodaLastExperiment_kolodaLastExperimentUITests.framework */,
+				B3AAA7220BB97A6544BC2FBA /* Pods_kolodaLastExperimentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		821F72D7296034DF00BF175B /* kolodaLastExperiment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821F7302296034E000BF175B /* Build configuration list for PBXNativeTarget "kolodaLastExperiment" */;
+			buildPhases = (
+				7EA7BE111FE0EEC1BD40A41E /* [CP] Check Pods Manifest.lock */,
+				821F72D4296034DF00BF175B /* Sources */,
+				821F72D5296034DF00BF175B /* Frameworks */,
+				821F72D6296034DF00BF175B /* Resources */,
+				E2EAC22162965C9B69F3FDB2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kolodaLastExperiment;
+			productName = kolodaLastExperiment;
+			productReference = 821F72D8296034DF00BF175B /* kolodaLastExperiment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		821F72ED296034E000BF175B /* kolodaLastExperimentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821F7305296034E000BF175B /* Build configuration list for PBXNativeTarget "kolodaLastExperimentTests" */;
+			buildPhases = (
+				AD235BB3D2563196B7073777 /* [CP] Check Pods Manifest.lock */,
+				821F72EA296034E000BF175B /* Sources */,
+				821F72EB296034E000BF175B /* Frameworks */,
+				821F72EC296034E000BF175B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				821F72F0296034E000BF175B /* PBXTargetDependency */,
+			);
+			name = kolodaLastExperimentTests;
+			productName = kolodaLastExperimentTests;
+			productReference = 821F72EE296034E000BF175B /* kolodaLastExperimentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		821F72F7296034E000BF175B /* kolodaLastExperimentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 821F7308296034E000BF175B /* Build configuration list for PBXNativeTarget "kolodaLastExperimentUITests" */;
+			buildPhases = (
+				609EA8CC32650DEA0DD6BFC1 /* [CP] Check Pods Manifest.lock */,
+				821F72F4296034E000BF175B /* Sources */,
+				821F72F5296034E000BF175B /* Frameworks */,
+				821F72F6296034E000BF175B /* Resources */,
+				FAA2D97164BE3CF8DAAD4A6C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				821F72FA296034E000BF175B /* PBXTargetDependency */,
+			);
+			name = kolodaLastExperimentUITests;
+			productName = kolodaLastExperimentUITests;
+			productReference = 821F72F8296034E000BF175B /* kolodaLastExperimentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		821F72D0296034DE00BF175B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					821F72D7296034DF00BF175B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					821F72ED296034E000BF175B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 821F72D7296034DF00BF175B;
+					};
+					821F72F7296034E000BF175B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 821F72D7296034DF00BF175B;
+					};
+				};
+			};
+			buildConfigurationList = 821F72D3296034DE00BF175B /* Build configuration list for PBXProject "kolodaLastExperiment" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 821F72CF296034DE00BF175B;
+			productRefGroup = 821F72D9296034DF00BF175B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				821F72D7296034DF00BF175B /* kolodaLastExperiment */,
+				821F72ED296034E000BF175B /* kolodaLastExperimentTests */,
+				821F72F7296034E000BF175B /* kolodaLastExperimentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		821F72D6296034DF00BF175B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821F72E8296034E000BF175B /* LaunchScreen.storyboard in Resources */,
+				8237AF8329DC10A5004AE66D /* CollectionViewCell.xib in Resources */,
+				8237AF8C29DC56EC004AE66D /* TableViewCell.xib in Resources */,
+				82C9E9D329CBD6E900DC658B /* wordCell.xib in Resources */,
+				82131FFF29F27B3A006F8FDD /* default.realm in Resources */,
+				8295AB8D2960E4F50002B1FC /* CardOverlayView.xib in Resources */,
+				82A8B75B29EC118900B830F1 /* experiment.xib in Resources */,
+				821F72E5296034E000BF175B /* Assets.xcassets in Resources */,
+				82A22CA929FC10B400A30B60 /* tipImageViewController.xib in Resources */,
+				8213204F29F66C37006F8FDD /* OverlayoutPopUpViewController.xib in Resources */,
+				821F72E3296034DF00BF175B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821F72EC296034E000BF175B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8213200029F27B3A006F8FDD /* default.realm in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821F72F6296034E000BF175B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8213200129F27B3A006F8FDD /* default.realm in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		609EA8CC32650DEA0DD6BFC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kolodaLastExperiment-kolodaLastExperimentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EA7BE111FE0EEC1BD40A41E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kolodaLastExperiment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD235BB3D2563196B7073777 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kolodaLastExperimentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2EAC22162965C9B69F3FDB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kolodaLastExperiment/Pods-kolodaLastExperiment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kolodaLastExperiment/Pods-kolodaLastExperiment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kolodaLastExperiment/Pods-kolodaLastExperiment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAA2D97164BE3CF8DAAD4A6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kolodaLastExperiment-kolodaLastExperimentUITests/Pods-kolodaLastExperiment-kolodaLastExperimentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kolodaLastExperiment-kolodaLastExperimentUITests/Pods-kolodaLastExperiment-kolodaLastExperimentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kolodaLastExperiment-kolodaLastExperimentUITests/Pods-kolodaLastExperiment-kolodaLastExperimentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		821F72D4296034DF00BF175B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C9E9D229CBD6E900DC658B /* WordCell.swift in Sources */,
+				8237AF8B29DC56EC004AE66D /* TableViewCell.swift in Sources */,
+				8237AF8229DC10A5004AE66D /* CollectionViewCell.swift in Sources */,
+				8228A76F29A4B18700921FD2 /* TextSelectingViewContrller.swift in Sources */,
+				821F730C29603A6200BF175B /* CardViewController.swift in Sources */,
+				8237AF9629DD9D27004AE66D /* FloatingPanelStocksLayout.swift in Sources */,
+				82A8B76929ECF46D00B830F1 /* DateBrain.swift in Sources */,
+				8228A76D29A4B08B00921FD2 /* WordData.swift in Sources */,
+				8213205229F66C37006F8FDD /* OverlayoutPopUpViewController.swift in Sources */,
+				827B208D29E3030B00A49C7D /* constants.swift in Sources */,
+				8299E84B29767049000A6530 /* CertificateViewController.swift in Sources */,
+				8237AF9229DC6547004AE66D /* AddViewController.swift in Sources */,
+				8237AF8E29DC647B004AE66D /* EditViewController.swift in Sources */,
+				8295AB8F2960E5AD0002B1FC /* CardOverlayView.swift in Sources */,
+				821F72E0296034DF00BF175B /* LearningFieldViewController.swift in Sources */,
+				82A22CA829FC10B400A30B60 /* tipImageViewController.swift in Sources */,
+				821F72DC296034DF00BF175B /* AppDelegate.swift in Sources */,
+				8297766B29711CBC00F2E9EC /* LaunchViewController.swift in Sources */,
+				821F72DE296034DF00BF175B /* SceneDelegate.swift in Sources */,
+				8228A77329A5D8BC00921FD2 /* Textbook.swift in Sources */,
+				8299E84D2976A87F000A6530 /* extendView.swift in Sources */,
+				827B208F29E651C600A49C7D /* CardDataAndLogic.swift in Sources */,
+				82320C542971C98D00A7FDA3 /* AllWordsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821F72EA296034E000BF175B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821F72F3296034E000BF175B /* kolodaLastExperimentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821F72F4296034E000BF175B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821F72FD296034E000BF175B /* kolodaLastExperimentUITests.swift in Sources */,
+				821F72FF296034E000BF175B /* kolodaLastExperimentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		821F72F0296034E000BF175B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 821F72D7296034DF00BF175B /* kolodaLastExperiment */;
+			targetProxy = 821F72EF296034E000BF175B /* PBXContainerItemProxy */;
+		};
+		821F72FA296034E000BF175B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 821F72D7296034DF00BF175B /* kolodaLastExperiment */;
+			targetProxy = 821F72F9296034E000BF175B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		821F72E1296034DF00BF175B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				821F72E2296034DF00BF175B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		821F72E6296034E000BF175B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				821F72E7296034E000BF175B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		821F7300296034E000BF175B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		821F7301296034E000BF175B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		821F7303296034E000BF175B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A75A8064CB9548C9FA532123 /* Pods-kolodaLastExperiment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65L5ZDG36Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kolodaLastExperiment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshikawazoe.kolodaLastExperiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		821F7304296034E000BF175B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E08F6BBCE676204518B436A8 /* Pods-kolodaLastExperiment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65L5ZDG36Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kolodaLastExperiment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshikawazoe.kolodaLastExperiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		821F7306296034E000BF175B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E079460293481422F4289C /* Pods-kolodaLastExperimentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65L5ZDG36Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshikawazoe.kolodaLastExperimentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kolodaLastExperiment.app/kolodaLastExperiment";
+			};
+			name = Debug;
+		};
+		821F7307296034E000BF175B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D92828C273FE0AD9F7826887 /* Pods-kolodaLastExperimentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65L5ZDG36Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshikawazoe.kolodaLastExperimentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kolodaLastExperiment.app/kolodaLastExperiment";
+			};
+			name = Release;
+		};
+		821F7309296034E000BF175B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D213BB2043278AAA39951C1 /* Pods-kolodaLastExperiment-kolodaLastExperimentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65L5ZDG36Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshikawazoe.kolodaLastExperimentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kolodaLastExperiment;
+			};
+			name = Debug;
+		};
+		821F730A296034E000BF175B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE9397EB254662E85B7B35E /* Pods-kolodaLastExperiment-kolodaLastExperimentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65L5ZDG36Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshikawazoe.kolodaLastExperimentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kolodaLastExperiment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		821F72D3296034DE00BF175B /* Build configuration list for PBXProject "kolodaLastExperiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821F7300296034E000BF175B /* Debug */,
+				821F7301296034E000BF175B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821F7302296034E000BF175B /* Build configuration list for PBXNativeTarget "kolodaLastExperiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821F7303296034E000BF175B /* Debug */,
+				821F7304296034E000BF175B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821F7305296034E000BF175B /* Build configuration list for PBXNativeTarget "kolodaLastExperimentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821F7306296034E000BF175B /* Debug */,
+				821F7307296034E000BF175B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		821F7308296034E000BF175B /* Build configuration list for PBXNativeTarget "kolodaLastExperimentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				821F7309296034E000BF175B /* Debug */,
+				821F730A296034E000BF175B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 821F72D0296034DE00BF175B /* Project object */;
+}

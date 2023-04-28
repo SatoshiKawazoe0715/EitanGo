@@ -1,0 +1,38 @@
+PODS:
+  - FloatingPanel (2.6.0)
+  - IQKeyboardManager (6.5.11)
+  - Koloda (5.0.1):
+    - pop (~> 1.0)
+  - pop (1.0.12)
+  - Realm (10.36.0):
+    - Realm/Headers (= 10.36.0)
+  - Realm/Headers (10.36.0)
+  - RealmSwift (10.36.0):
+    - Realm (= 10.36.0)
+
+DEPENDENCIES:
+  - FloatingPanel
+  - IQKeyboardManager
+  - Koloda
+  - RealmSwift (~> 10)
+
+SPEC REPOS:
+  trunk:
+    - FloatingPanel
+    - IQKeyboardManager
+    - Koloda
+    - pop
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  FloatingPanel: 2d4a82745948d9c66be1daf51a03e9e70c9d2a2a
+  IQKeyboardManager: ef43ce1ba1e5aaf4adf222c0a46f39761f246879
+  Koloda: d07b9199a383abc5898b62aa945a599f5e7c0c4b
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  Realm: 3fd136cb4c83a927482a7f1612496d37beed3cf5
+  RealmSwift: 513d4dcbf5bfc4d573454088b592685fc48dd716
+
+PODFILE CHECKSUM: e43c814f757e2b8a63e609f543a9cb693e02a18e
+
+COCOAPODS: 1.11.3
